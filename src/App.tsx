@@ -196,6 +196,8 @@ function App() {
               </svg>
               cultureunitedmedia
             </Footer>
+          </a>
+          <a href="mailto:CultureUnitedMedia@gmail.com">
             <Footer>CultureUnitedMedia@gmail.com</Footer>
           </a>
         </motion.div>
