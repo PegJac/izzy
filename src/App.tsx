@@ -1,46 +1,32 @@
-import React, { useState } from "react";
 import ReactPlayer from "react-player/lazy";
 import { styled } from "styled-components";
 import izzy1 from "./assets/izzy1.jpg";
 import collage from "./assets/collage.png";
 
 function App() {
-  const [controls, setControls] = useState(false);
   return (
     <Wrapper>
       <SideBar>
         CULTURE UNITED - <span>GO TO IZZY!</span>
       </SideBar>
       <Content>
-        <div
-          onMouseEnter={() => {
-            setControls(true);
+        <ReactPlayer
+          url={"https://www.youtube.com/watch?v=uoW5J-568Ys"}
+          playing={true}
+          loop
+          pip
+          style={{
+            aspectRatio: "16/9",
           }}
-          onMouseLeave={() => {
-            setControls(false);
-          }}
-        >
-          <ReactPlayer
-            url={`https://youtu.be/uoW5J-568Ys?si=uSBg-FZIsSJwOjVI`}
-            playing
-            loop
-            responsive
-            controls={false}
-            style={{
-              // borderRadius: "5px",
-              // overflow: "hidden",
-              aspectRatio: "16/9",
-            }}
-            width="100%"
-            height="100%"
-          />
-        </div>
+          width="100%"
+          height="100%"
+        />
         <Spacer />
         <Main>
           <p>
             This documentary tells the story of Izzy Young, a man that came to
             play a very special role during the folk music revival in New York
-            City in the early 1960’s.
+            City in the early 1960's.
             <br />
             <br />
             His store, the Folklore Center in Greenwich Village, sold books,
@@ -74,12 +60,12 @@ function App() {
             <br />
             <br />
             At the age of nearly 90 Izzy struggles to keep his store open for
-            business. It isn’t easy. Few people buy anything, they mostly come
-            in to hear him tell stories from the 60’s.
+            business. It isn't easy. Few people buy anything, they mostly come
+            in to hear him tell stories from the 60's.
             <br />
             <br />
-            What’s more, Izzy’s health is deteriorating, he has dementia. But he
-            won’t let that slow him down. Izzy hosts concerts several nights a
+            What's more, Izzy's health is deteriorating, he has dementia. But he
+            won't let that slow him down. Izzy hosts concerts several nights a
             week and returns to the store every morning for another day of
             interaction with lovers of folk music.
           </p>
