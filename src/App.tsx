@@ -96,6 +96,12 @@ function App() {
               a chance to perform, to learn, and to grow.
               <br />
               <br />
+              And when Izzy Young took under his wings a newly arrived to town
+              folk singer from Minnesota - Bob Dylan - and later organised his
+              first official concert, Izzy was promoted to the role of a
+              kingmaker.
+              <br />
+              <br />
               In 1973, Izzy Young suddenly decided to move to Sweden, where he
               started a similar shop and continued his mission to promote and
               preserve folk music and culture, both American and Swedish.
